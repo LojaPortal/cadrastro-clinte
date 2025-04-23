@@ -40,7 +40,7 @@ def cadastrar():
 def index():
     return send_from_directory(app.static_folder, 'index.html')
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     import os
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
