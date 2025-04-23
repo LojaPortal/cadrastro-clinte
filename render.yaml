@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cadastro-clientes
+    env: python
+    buildCommand: ""
+    startCommand: "python backend_flask_cadastro.py"
+    plan: free
